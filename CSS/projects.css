@@ -1,0 +1,67 @@
+.heroContainerImage {
+  margin-top: -120px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.col-12 {
+  text-align: center;
+}
+
+.description {
+  padding: 20px 0 60px 0;
+  font-weight: bolder;
+}
+
+.col-5 {
+  text-align: center;
+}
+
+.row {
+  padding: 20px 45px;
+  margin: 0 auto;
+}
+
+.col-4 {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.phaseTitle {
+  padding-bottom: 50px;
+}
+.nav-pills li {
+  width: 16%;
+  margin: 0;
+  text-align: center;
+}
+
+#pills-tab {
+  padding: 0;
+}
+
+.nav-item p {
+  margin: 0;
+}
+
+.caseStudies {
+  background-color: rgb(245, 185, 56);
+}
+
+.caseStudiesTitle {
+  font-size: 36px;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.card-img-top,
+.card-body {
+  background-color: rgb(245, 185, 56);
+}
