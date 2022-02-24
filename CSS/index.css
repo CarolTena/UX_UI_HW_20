@@ -423,6 +423,8 @@ content h1 {
     padding-top: 10px;
   }
 
+
+
   #toTopBtn {
     left: 92%;
   }
@@ -447,6 +449,7 @@ content h1 {
   .heroInfo {
     flex-direction: column-reverse;
     padding: 0 55px;
+    margin: 0 auto;
   }
 
   .heroText h1 {
@@ -455,7 +458,7 @@ content h1 {
   }
 
   .heroText h2 {
-        text-align: center;
+    text-align: center;
   }
 
   .aboutMeText h3 {
@@ -514,7 +517,7 @@ content h1 {
     grid-template-columns: 100%;
     text-align: center;
     row-gap: 15px;
-      }
+  }
 
   .icons {
     flex-direction: column;
@@ -537,11 +540,10 @@ content h1 {
   }
 
   .myWorkImages {
-       margin: 0px;
+    margin: 0px;
   }
 
   .project1Btn {
     margin-bottom: 80px;
   }
-  
 }

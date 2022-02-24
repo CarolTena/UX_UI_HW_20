@@ -3,6 +3,46 @@ body {
   margin: 0 45px;
 }
 
+.pageTopics {
+  margin: 40px 0;
+}
+
+.aboutTheProject,
+.myResponsabilities,
+.process,
+.caseStudies,
+.card {
+  padding: 0 45px;
+}
+
+.quotes {
+  margin: 40px 0;
+}
+.quotesText {
+  padding: 0;
+  margin: 50px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.quotesImg {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.pageTopicsTitle {
+  padding: 0;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(134, 63, 161);
+}
+
+.imgDescription {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px 0 60px 0;
+}
 .heroContainerImage {
   margin-top: -95px;
   width: 50%;
@@ -12,7 +52,6 @@ body {
 .heroTextColor h1 {
   color: rgb(245, 185, 56);
 }
-
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link,
@@ -32,18 +71,19 @@ body {
   color: black;
 }
 
-
 .phaseTitle {
-  padding-bottom: 50px;
+  padding: 20px 0 40px 0;
+  font-weight: bold;
 }
 
 .nav-pills {
-  background: linear-gradient(180deg, 
-        rgba(0,0,0,0) calc(50% - 1px), 
-        rgba(192,192,192,1) calc(50%), 
-        rgba(0,0,0,0) calc(50% + 1px)
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) calc(50% - 1px),
+    rgba(192, 192, 192, 1) calc(50%),
+    rgba(0, 0, 0, 0) calc(50% + 1px)
   );
-  background-position: 0 -42px;
+  background-position: 0 -50px;
 }
 
 .nav-pills li {
@@ -60,22 +100,25 @@ body {
   margin: 0;
 }
 
-
 .caseStudiesTitle {
-  font-size: 36px;
+  font-size: 40px;
   color: black;
   font-weight: lighter;
   text-align: center;
 }
 
+.caseStudies {
+  background-color: rgb(245, 185, 56);
+  margin: 0 auto;
+  padding: 40px 0;
+}
 
 .text-padding {
   margin: 45px;
 }
 
-
 .card-img-top {
-  width: 60%;
+  width: 40%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
   margin: 0 auto;
@@ -84,5 +127,54 @@ body {
 
 .card {
   border: 0;
-  background-color: yellow;
+  background-color: rgb(245, 185, 56);
+}
+
+.mockUpsPadding {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(134, 63, 161);
+}
+
+.card.col-6 {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.card-text {
+  font-size: 16px;
+  padding: 20px 0;
+}
+.btn-primary {
+  border: 0;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 175px;
+  background-color: rgb(134, 63, 161);
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .heroContainerImage {
+    width: 100%;
+    margin: 25px 0;
+    padding: 0;
+  }
+
+  .nav-pills {
+    background-position: 0 -70px;
+  }
 }
