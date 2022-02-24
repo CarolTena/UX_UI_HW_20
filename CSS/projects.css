@@ -1,41 +1,51 @@
-.heroContainerImage {
-  margin-top: -120px;
+body {
+  padding: 0;
+  margin: 0 45px;
 }
 
+.heroContainerImage {
+  margin-top: -95px;
+  width: 50%;
+  padding-right: 45px;
+}
+
+.heroTextColor h1 {
+  color: rgb(245, 185, 56);
+}
+
+
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show > .nav-link,
+.nav-pills .nav-link {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-}
-
-.col-12 {
-  text-align: center;
-}
-
-.description {
-  padding: 20px 0 60px 0;
-  font-weight: bolder;
-}
-
-.col-5 {
-  text-align: center;
-}
-
-.row {
-  padding: 20px 45px;
   margin: 0 auto;
 }
 
-.col-4 {
-  font-size: 18px;
-  color: black;
-  font-weight: bold;
+.nav-pills .nav-link.active {
+  background-color: rgb(134, 63, 161);
 }
+
+.nav-pills .nav-link {
+  background-color: #ccc;
+  color: black;
+}
+
 
 .phaseTitle {
   padding-bottom: 50px;
 }
+
+.nav-pills {
+  background: linear-gradient(180deg, 
+        rgba(0,0,0,0) calc(50% - 1px), 
+        rgba(192,192,192,1) calc(50%), 
+        rgba(0,0,0,0) calc(50% + 1px)
+  );
+  background-position: 0 -42px;
+}
+
 .nav-pills li {
   width: 16%;
   margin: 0;
@@ -50,18 +60,29 @@
   margin: 0;
 }
 
-.caseStudies {
-  background-color: rgb(245, 185, 56);
-}
 
 .caseStudiesTitle {
   font-size: 36px;
-  color: white;
+  color: black;
   font-weight: lighter;
   text-align: center;
 }
 
-.card-img-top,
-.card-body {
-  background-color: rgb(245, 185, 56);
+
+.text-padding {
+  margin: 45px;
+}
+
+
+.card-img-top {
+  width: 60%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  margin: 0 auto;
+  display: block;
+}
+
+.card {
+  border: 0;
+  background-color: yellow;
 }
