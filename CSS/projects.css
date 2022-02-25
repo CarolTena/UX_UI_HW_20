@@ -6,14 +6,6 @@ body {
   margin: 40px 0;
 }
 
-/* .aboutTheProject,
-.myResponsabilities,
-.process,
-.caseStudies,
-.card {
-  padding: 0 45px;
-} */
-
 .quotes {
   margin: 40px 0;
 }
@@ -188,11 +180,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    padding: 0;
-    margin: 0;
-  }
-
   .heroContainerImage {
     width: 100%;
     margin: 25px 0;
@@ -201,5 +188,8 @@ body {
 
   .nav-pills {
     background-position: 0 -70px;
+  }
+  .paddingMobile {
+    padding: 0 30px;
   }
 }
