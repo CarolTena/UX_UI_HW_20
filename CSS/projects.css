@@ -1,19 +1,18 @@
 body {
   padding: 0;
-  margin: 0 45px;
 }
 
 .pageTopics {
   margin: 40px 0;
 }
 
-.aboutTheProject,
+/* .aboutTheProject,
 .myResponsabilities,
 .process,
 .caseStudies,
 .card {
   padding: 0 45px;
-}
+} */
 
 .quotes {
   margin: 40px 0;
@@ -36,6 +35,15 @@ body {
   font-weight: bold;
   font-size: 24px;
   color: rgb(134, 63, 161);
+}
+
+.titleYellowBox {
+  padding: 0;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(134, 63, 161);
+  margin: 20px 0;
 }
 
 .imgDescription {
@@ -110,7 +118,6 @@ body {
 .caseStudies {
   background-color: rgb(245, 185, 56);
   margin: 0 auto;
-  padding: 40px 0;
 }
 
 .text-padding {
@@ -160,6 +167,24 @@ body {
   background-color: rgb(134, 63, 161);
   border-radius: 4px;
   margin-bottom: 50px;
+}
+
+.textHighlight {
+  font-weight: bolder;
+  padding: 20px 0;
+}
+
+.buttonViewMore:hover {
+  background-color: rgb(134, 63, 161);
+  box-shadow: 0px 0px 0px 2px white;
+}
+
+.purpleFooter {
+  padding: 15px 0;
+}
+
+.hovertopicCircleImage {
+  transform: rotate(-20deg);
 }
 
 @media only screen and (max-width: 600px) {
